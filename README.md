@@ -1,5 +1,6 @@
 ## About the Project
-Project Title: Austin Animal Center CRUD Python Module
+**Project Title: Austin Animal Center CRUD Python Module**
+
 This small Python module (CRUD_Python_Module.py) gives Grazioso Salvare's future dashboard a clean way to read and write records in the 
 Austin Animal Center MongoDB database, without the rest of the application ever writing a raw Mongo query. AnimalShelter 
 currently supports create and read against roughly 10,000 shelter records; update and delete are coming in Project One.
