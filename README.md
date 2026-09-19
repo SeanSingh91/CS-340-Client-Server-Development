@@ -14,9 +14,11 @@ You will need MongoDB running locally with the AAC dataset loaded (aac.animals) 
 2. Confirm MongoDB is reachable at localhost:27017, or edit the HOST/PORT constants.
 3. Instantiate the class with credentials: shelter = AnimalShelter("aacuser", "<password>").
 ## Installation
-##### PyMongo - the officially supported MongoDB driver for Python; insert_one()/find() map directly onto create/read. pip install pymongo.
-##### MongoDB Community Server - Austin Animal Center records aren't perfectly uniform, so a document database fit better than a rigid schema. mongoimport/mongosh loaded the dataset and created aacuser in Module Three.
-##### Jupyter Notebook - let me re-run create()/read() calls against the live database while testing.
+**PyMongo** - the officially supported MongoDB driver for Python; insert_one()/find() map directly onto create/read. pip install pymongo.
+
+**MongoDB Community Server** - Austin Animal Center records aren't perfectly uniform, so a document database fit better than a rigid schema. mongoimport/mongosh loaded the dataset and created aacuser in Module Three.
+
+**Jupyter Notebook** - let me re-run create()/read() calls against the live database while testing.
 ## Usage
 ##### Code Example
 The class only needs a username and password; the database (aac) and collection (animals) are handled internally:
